@@ -1,0 +1,7 @@
+{
+  "format": "documentation-blueprint-not-n8n-export",
+  "evidence": "owner-scope with reconstructed stage ordering",
+  "active": false,
+  "stages": ["Get eligible niche/location queue item", "Claim queue item", "Places Text Search", "Normalize places", "Check google_place_id", "Insert only missing leads NEW / NOT_REVIEWED", "Record queue outcome"],
+  "controls": ["Preserve existing state", "Bound pagination and retries", "Serialize or enforce atomic deduplication before concurrency"]
+}

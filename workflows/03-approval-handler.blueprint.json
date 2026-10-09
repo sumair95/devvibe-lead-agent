@@ -1,0 +1,8 @@
+{
+  "format": "documentation-blueprint-not-n8n-export",
+  "evidence": "send outcome verified; precise stage implementation reconstructed",
+  "active": false,
+  "stages": ["Telegram Trigger", "Parse callback", "Authorize reviewer/chat", "Switch action", "Reload lead", "Can Send Email?", "Claim SENDING / APPROVED", "Titan SMTP", "Save EMAIL_SENT / APPROVED and first_email_sent_at", "Acknowledge/update Telegram"],
+  "verified_test": "Sequential second approval blocked after successful email send",
+  "planned": ["Reject and DNC persistence", "Draft-version binding", "Atomic claims or serialization", "Ambiguous SMTP outcome reconciliation"]
+}

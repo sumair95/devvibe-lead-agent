@@ -1,0 +1,19 @@
+{
+  "google_place_id": "place_demo_001",
+  "website": "https://example.com/",
+  "public_emails_found": ["business@example.com"],
+  "observed_facts": ["Synthetic example: a website contains an enquiry form."],
+  "current_workflow": "Synthetic enquiry collection",
+  "pain_hypothesis": "Administrative routing may be worth assessing.",
+  "automation_opportunity": "Route form enquiries to the appropriate team.",
+  "business_value": "Potentially reduce routing administration; not a measured claim.",
+  "recommended_offer": "Workflow automation assessment",
+  "confidence_score": 65,
+  "clear_workflow_identified": true,
+  "manual_process_evidence": false,
+  "specific_automation_opportunity": true,
+  "clear_business_value": false,
+  "research_status": "QUALIFIED",
+  "personalisation_angle": "Synthetic example: the website provides an enquiry form.",
+  "parse_success": true
+}

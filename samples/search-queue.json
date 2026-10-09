@@ -1,0 +1,8 @@
+{
+  "sample_only": true,
+  "historical_schema_verified": false,
+  "items": [
+    {"queue_id": "queue_demo_001", "niche": "Example trade", "location": "Example suburb", "status": "QUEUED", "retry_count": 0},
+    {"queue_id": "queue_demo_002", "niche": "Example service", "location": "Example town", "status": "QUEUED", "retry_count": 0}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sample_only": true,
+  "api_variant": "Places API (New), not verified as the historical variant",
+  "method": "POST",
+  "url": "https://places.googleapis.com/v1/places:searchText",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-Goog-Api-Key": "<SUPPLIED_BY_N8N_CREDENTIAL>",
+    "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.websiteUri"
+  },
+  "body": {"textQuery": "Example trade in Example suburb"}
+}

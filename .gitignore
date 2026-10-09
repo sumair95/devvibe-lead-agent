@@ -1,0 +1,28 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+# Raw data, exports and private backups
+private/
+raw-exports/
+prospects/
+executions/
+backups/
+*.sqlite*
+*.db
+*.log
+*.csv
+# Build/review intermediates
+tmp/
+qa/
+__pycache__/
+.DS_Store
+Thumbs.db

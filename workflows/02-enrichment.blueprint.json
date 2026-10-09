@@ -1,0 +1,9 @@
+{
+  "format": "documentation-blueprint-not-n8n-export",
+  "active": false,
+  "stages": ["Get New Lead", "Has Website?", "Fetch Website", "Clean Website", "Build Research URLs", "Fetch Research Pages", "Combine Business Research", "AI Opportunity Analyst", "Parse AI Analysis", "Calculate Lead Score", "Is Qualified Lead?"],
+  "qualified_when": {"parse_success": true, "research_status": "QUALIFIED", "lead_score_gte": 65},
+  "true_branch": ["Save AI Analysis: AI_QUALIFIED", "AI Outreach Writer", "Parse Outreach Email", "Save Outreach Draft: EMAIL_READY / PENDING_APPROVAL", "Send Approval Request"],
+  "false_branch": ["Mark Lead Not Qualified: AI_NOT_QUALIFIED", "Stop"],
+  "planned": ["Separate parse/fetch error states", "No-website/no-email handling", "Loop Over Items with correct item linkage"]
+}
